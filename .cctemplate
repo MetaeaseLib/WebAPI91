@@ -1,13 +1,13 @@
 {
-  "name": "cloud-run-microservice-template-java",
+  "name": "cloud-run-webApi91-java",
   "metadata": {
     "version": "0.1.0"
   },
   "templates": [
     {
       "path": "./",
-      "name": "Cloud Run Microservice Template - Java",
-      "description": "Basic microservice template for Cloud Run",
+      "name": "Cloud Run WebAPI91 - Java",
+      "description": "Basic WebAPI91 for Cloud Run",
       "languages": [
         "Java"
       ]
