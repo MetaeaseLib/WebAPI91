@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 Google LLC
+ * Copyright 2023 Metaease LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cloudrun.microservicetemplate;
+package jp.co.metaease.web.ctrl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,11 +25,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 /** Example REST controller to demonstrate structured logging. */
 @RestController
-public class MicroserviceController {
+public class WebApi910101Controller {
   // 'spring-cloud-gcp-starter-logging' module provides support for
   // associating a web request trace ID with the corresponding log entries.
   // https://cloud.spring.io/spring-cloud-gcp/multi/multi__stackdriver_logging.html
-  private static final Logger logger = LoggerFactory.getLogger(MicroserviceController.class);
+  private static final Logger logger = LoggerFactory.getLogger(WebApi910101Controller.class);
 
   /** Example endpoint handler. */
   @GetMapping("/")

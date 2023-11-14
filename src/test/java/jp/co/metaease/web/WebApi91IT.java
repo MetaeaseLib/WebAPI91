@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 Google LLC
+ * Copyright 2023 Metaesase LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cloudrun.microservicetemplate;
+package jp.co.metaease.web;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -28,7 +28,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MicroserviceTemplateIT {
+class WebApi91IT {
   // Retrieve Cloud Run service test config
   static String idToken = System.getenv("ID_TOKEN");
   static String baseURL = System.getenv("BASE_URL");

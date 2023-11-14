@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 Google LLC
+ * Copyright 2023 Metaease LLC
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cloudrun.microservicetemplate.util;
+package jp.co.metaease.web.util;
 
 import com.google.cloud.MetadataConfig;
 import com.google.cloud.ServiceOptions;
