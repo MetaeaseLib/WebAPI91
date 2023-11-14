@@ -40,6 +40,6 @@ public class WebApi910101Controller {
     // Use logger with log correlation
     // https://cloud.google.com/run/docs/logging#correlate-logs
     logger.info("Structured logging example.");
-    return "Hello World!";
+    return "Hello World!!!!!!";
   }
 }
