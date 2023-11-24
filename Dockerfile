@@ -31,10 +31,10 @@ RUN mvn package -DskipTests
 FROM eclipse-temurin:17.0.9_9-jre-alpine
 
 # Copy the jar to the production image from the builder stage.
-COPY --from=builder /app/target/webapi91-*.jar /webapi91.jar
+COPY --from=builder /app/target/webApi91-*.jar /webApi91.jar
 
 # Run the web service on container startup.
-CMD ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/webapi91.jar"]
+CMD ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/webApi91.jar"]
 
 # [END run_webapi91_dockerfile]
 # [END cloudrun_webapi91_dockerfile]
