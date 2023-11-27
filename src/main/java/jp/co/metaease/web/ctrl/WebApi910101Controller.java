@@ -32,8 +32,8 @@ public class WebApi910101Controller {
   private static final Logger logger = LoggerFactory.getLogger(WebApi910101Controller.class);
 
   /** Example endpoint handler. */
-  @GetMapping("/")
-  public @ResponseBody String index() {
+  @GetMapping("/test")
+  public @ResponseBody String test() {
     // Example of structured logging - add custom fields
     MDC.put("logField", "custom-entry");
     MDC.put("arbitraryField", "custom-entry");
